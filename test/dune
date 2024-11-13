@@ -1,0 +1,4 @@
+(test
+ (name test_a6)
+ (deps (glob_files_rec ../data/*))
+ (libraries a6 ounit2 qcheck))
